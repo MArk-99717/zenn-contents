@@ -40,6 +40,10 @@ Next.jsの導入については下記の記事を参考に環境構築につい�
 [参考までに](https://zenn.dev/knagano/articles/zenn-article-1)
 ※こちらの環境構築時のポート番号が重複してしまう場合は、導入時のサーバーを終了してからこの後の作業に取り掛かるか、ポート番号をずらして作業するようにする。
 
+### 参考にした動画はこちらです
+-----
+https://www.youtube.com/watch?v=My9rXHRn8zc
+
 ### next.jsにgit cloneする
 -----
 まず初めにnext.jsのディレクトリにgitからテンプレートをクローンしてくる作業を行う。
@@ -136,6 +140,8 @@ export const getStaticProps = async () => {
 -----
 実際にNotionのメモ画面よりテンプレートに基づいた記事の作成ができることを確認する。
 
+![image](\images\zenn-article-01\blog01.png)
+
 
 ### 最後に
 -----
@@ -143,6 +149,6 @@ export const getStaticProps = async () => {
 上記のものは単純な紐づけの部分となっていますが、Notionのメモ機能のカスタマイズ（APIのドキュメントの設定含め）を使えるという事で、
 こちらの記事でも拡張性の高さを見ることができたのではないでしょうか。（まだまだ氷山の一角という所感です。）
 
-実際にブログ等の形式で組み立てたものを次回の記事で紹介しています。
+次回の記事はこちらです。
 **[第四回]**
 **(https://zenn.dev/knagano/articles/zenn-article-10)**
