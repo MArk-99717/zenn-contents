@@ -11,7 +11,7 @@ published: true
 連載記事の第三回目の記事となります。
 #### 前回までの記事
 **[第一回]**
-**(https://zenn.dev/articles/d0e9d77e59d496)**
+**(https://zenn.dev/toccaduong/articles/d0e9d77e59d496)**
 **[第二回]**
 **(https://zenn.dev/mmorichika/articles/mmorichika-notionapi)**
 
@@ -62,7 +62,7 @@ $ git clone https://github.com/Shin-sibainu/notion-blog-template.git　notion-bl
 ```js
 $ npm I
 ```
-![image](https://image.png)
+![image](/images/zenn-article-01/blog01.png)
 （ワークスペース内の.gitignoreから/node_modulesが無視されていることを確認できる）
 
 ### ローカルでサーバーを立ち上げる
@@ -81,13 +81,14 @@ npx browserslist@latest --update-db
 ```
 ブラウザの検索欄にlocalhost:3000を入力して、下記の画面が出ることを確認する。
 (この時点ではpostsの値が無いため)
-![image](https://image.png)
+![image](/images/zenn-article-01/blog02.png)
 
 ### Notionの設定
 -----
 前回の記事で行ったインテグレーション時に取得できるシークレットコードを控えておく。
 **※このシークレットコードは公開するとブログの記事などを外部から編集されてしまう恐れがある為、第三者に見せないようにする**
-
+![image](/images/zenn-article-01/blog03.png)
+![image](/images/zenn-article-01/blog04.png)
 ### VSCで連携作業
 -----
 ・VSCに戻り、ワークスペース内に新規ファイル「.env」を作成し、下記の記述を行う。
@@ -140,8 +141,12 @@ export const getStaticProps = async () => {
 -----
 実際にNotionのメモ画面よりテンプレートに基づいた記事の作成ができることを確認する。
 
-![image](\images\zenn-article-01\blog01.png)
+![image](/images/zenn-article-01/blog05.png)
 
+Notionのメモ画面で入力した内容が連携先のページのRead postから確認できます。
+![image](/images/zenn-article-01/blog06.png)
+![image](/images/zenn-article-01/blog07.png)
+![image](/images/zenn-article-01/blog08.png)
 
 ### 最後に
 -----
