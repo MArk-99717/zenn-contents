@@ -62,7 +62,7 @@ $ git clone https://github.com/Shin-sibainu/notion-blog-template.git　notion-bl
 ```js
 $ npm I
 ```
-![image](/images/zenn-article-01/blog01.png)
+![image](images/zenn-article-01/blog01.png)
 （ワークスペース内の.gitignoreから/node_modulesが無視されていることを確認できる）
 
 ### ローカルでサーバーを立ち上げる
@@ -156,4 +156,4 @@ Notionのメモ画面で入力した内容が連携先のページのRead post�
 
 次回の記事はこちらです。
 **[第四回]**
-**(https://zenn.dev/knagano/articles/zenn-article-10)**
+https://zenn.dev/knagano/articles/zenn-article-10
