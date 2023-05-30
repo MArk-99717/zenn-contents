@@ -11,9 +11,9 @@ published: true
 連載記事の第三回目の記事となります。
 #### 前回までの記事
 **[第一回]**
-**(https://zenn.dev/toccaduong/articles/d0e9d77e59d496)**
+https://zenn.dev/toccaduong/articles/d0e9d77e59d496
 **[第二回]**
-**(https://zenn.dev/mmorichika/articles/mmorichika-notionapi)**
+https://zenn.dev/mmorichika/articles/mmorichika-notionapi
 
 前記事にもありますが
 社内のナレッジ/タスク管理ツールとして最近人気の「Notion」が導入されたこと、
@@ -62,7 +62,7 @@ $ git clone https://github.com/Shin-sibainu/notion-blog-template.git　notion-bl
 ```js
 $ npm I
 ```
-![image](images/zenn-article-01/blog01.png)
+![image](/images/zenn-article-01/blog01.png)
 （ワークスペース内の.gitignoreから/node_modulesが無視されていることを確認できる）
 
 ### ローカルでサーバーを立ち上げる
